@@ -5,7 +5,7 @@ If you think this source code is useful, it will be great if you just give it st
 # Quick Start for Server
 
 **Clone the repository**<br/>
-`git clone https://github.com/paresh-barad/mean-login-register`
+`git clone https://github.com/paresh-barad/mean-login-register.git`
 
 **Go inside the directory**<br/>
 `cd mean-login-register/server`
@@ -28,14 +28,14 @@ If you think this source code is useful, it will be great if you just give it st
 `ng serve`
 
 # Development server
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run ng serve for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 # Build
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the -prod flag for a production build.
+Run ng build to build the project. The build artifacts will be stored in the `dist/` directory. Use the -prod flag for a production build.
 
 # Database jwt Configration for server
-Global variables such as mongodb url can be set in server/config/database.config.js
-You can be change jwt secret in server/config/jwt.config.js
+Global variables such as mongodb url can be set in `server/config/database.config.js`
+You can be change jwt secret in `server/config/jwt.config.js`
 
 **Restful API**<br/>
 An api with the following routes
